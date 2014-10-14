@@ -1,5 +1,8 @@
-function buildQpboMex
-% mex command to build qpboMex
+function build_qpboMex
+% build_icmPottsMex builds package icmPottsMex
+%
+% Anton Osokin (firstname.lastname@gmail.com),  24.09.2014
+
 codePath = 'QPBO-v1.32.src';
 
 srcFiles = { 'qpboMex.cpp', ...

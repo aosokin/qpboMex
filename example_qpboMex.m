@@ -1,3 +1,7 @@
+% example of usage of package qpboMex
+%
+% Anton Osokin (firstname.lastname@gmail.com),  24.09.2014
+
 nNodes=4;
 
 % [Dp(0), Dp(1)] - unary terms
@@ -27,5 +31,5 @@ if ~isequal(lowerBound, 22)
     warning('Wrong value of lowerBound!')
 end
 if ~isequal(labels, [0; 0; 1; 0])
-    warning('Wrong energy of labels!')
+    warning('Wrong value of labels!')
 end

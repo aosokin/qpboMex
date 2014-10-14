@@ -8,7 +8,7 @@
 
 #define INFTY INT_MAX
 
-mwSize round(double a);
+double round(double a);
 int isInteger(double a);
 
 #define MATLAB_ASSERT(expr,msg) if (!(expr)) { mexErrMsgTxt(msg);}
@@ -118,7 +118,7 @@ void mexFunction(int nlhs, mxArray *plhs[],
 }
 
 
-mwSize round(double a)
+double round(double a)
 {
 	return (mwSize)floor(a + 0.5);
 }

@@ -1,4 +1,4 @@
-% Matlab interface to Vladimir Kolmogorov's implementation of QPBO algorithm downloadable from:
+% qpboMex - Matlab interface to Vladimir Kolmogorov's implementation of QPBO algorithm downloadable from:
 % http://www.cs.ucl.ac.uk/staff/V.Kolmogorov/software.html
 % 
 % Energy function:
@@ -20,4 +20,4 @@
 % LB - of type double, a single number; lower bound found by QPBO
 % labels - of type double, array size [numNodes, 1] of {0, 1, -1}; labeling found by QPBO; -1 means refusal to label the vertex
 % 
-% by Anton Osokin, firstname.lastname@gmail.com, Summer 2011 
+% Anton Osokin, firstname.lastname@gmail.com, 24.09.2014 
