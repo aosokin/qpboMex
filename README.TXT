@@ -26,7 +26,9 @@ PACKAGE
 ./QPBO-v1.32.src - C++ code by Vladimir Kolmogorov (the code is used as is)
 http://pub.ist.ac.at/~vnk/software/QPBO-v1.32.src.zip
 
-./qpboMex.mexw64 - binary file for the mex-function compiled using MATLAB R2014a + MSVC 2012
+./qpboMex.mexw64 - Win x64 binary file for the mex-function compiled using MATLAB R2014a + MSVC 2012
+
+./qpboMex.mexa64 - Linux x64 binary file for the mex-function compiled using MATLAB R2012a + gcc-4.4
 
 USING THE CODE
 -----------------------------
@@ -39,7 +41,7 @@ USING THE CODE
 
 The code was tested under 
 - Win7-x64 using MATLAB R2014a and MSVC 2012;
-- ubuntu-12.04-x64 using MATLAB R2012a and gcc-4.3
+- ubuntu-12.04-x64 using MATLAB R2012a and gcc-4.4
 
 OTHER PACKAGES
 -----------------------------
