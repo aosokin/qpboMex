@@ -1,5 +1,5 @@
 function build_qpboMex
-% build_icmPottsMex builds package icmPottsMex
+% build_qpboMex builds package qpboMex
 %
 % Anton Osokin (firstname.lastname@gmail.com),  24.09.2014
 
